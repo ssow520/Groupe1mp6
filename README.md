@@ -2,6 +2,7 @@
 
 This repository contains the core documentation used to structure and guide the software project throughout its lifecycle.
 
+
 ## Documents Included
 
 ### 1. `SRS.md` — Software Requirements Specification
@@ -43,5 +44,13 @@ Together, they provide a clear, professional, and maintainable documentation fra
 - [SRS.md](SRS.md)
 - [ADR.md](ADR.md)
 
+## Students tasks
+- [ ] Complete the `student_readmefile.md` file.
+- [ ] Use the template file `SRS.md` to create your own SRS.
+- [ ] Use the template file `ADR.md` to create your own ADRs .
+- [ ] You will add your code in the `/code` folder.
+- [ ] You will add your documentation in the `/documentation` folder.
+
 ## Read more
 - [Architecture Decision Records (ADR) template by Joel Parker Henderson](https://github.com/joelparkerhenderson/architecture-decision-record?tab=readme-ov-file)
+- [ADR Website](https://adr.github.io/)
