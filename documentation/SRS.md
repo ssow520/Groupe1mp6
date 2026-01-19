@@ -1,12 +1,16 @@
 # Cahier des charges (SRS léger) — <Nom du projet>
-**Équipe :** <Noms>  
+
+**Équipe :** 
+Souleymane Sow, Moses Kasindi, Ruth Kegmo
+
 **Date :** <YYYY-MM-DD>  
+
 **Version :** <v0.1 / v1.0>
 
 ---
 
 ## 1. Contexte & objectif
-- **Contexte :** <Pourquoi ce projet existe?>
+- **Contexte :** <>
 - **Objectif principal :** <Valeur attendue / problème résolu>
 - **Parties prenantes :** <utilisateurs, client, admin, etc.>
 
@@ -31,14 +35,16 @@
 
 ## 4. Exigences fonctionnelles (FR)
 > Forme recommandée : “Le système doit…”
-- **FR-1 :** Le système doit <...>
-- **FR-2 :** Le système doit <...>
+- **FR-1 :** le système permet de créer un compte client
+- **FR-2 :** le système doit sauvegarder les données de l'utilisateur dans une base données 
+- **FR-3 :** Le système doit calculer un budget en fonction des données
+- **FR-4 :** Le système doit proposer un budget adéquat en foncton de la situation
 
 ---
 
 ## 5. Exigences non fonctionnelles (NFR)
 > Performance / sécurité / disponibilité / UX / maintenabilité…
-- **NFR-1 (Performance) :** <ex. temps de réponse < 2s>
+- **NFR-1 (Performance) :** <La securité de la base des donnnés>
 - **NFR-2 (Sécurité) :** <ex. authentification requise>
 - **NFR-3 (UX) :** <ex. parcours en ≤ 3 clics>
 - **NFR-4 (Qualité) :** <ex. couverture minimale de tests>
