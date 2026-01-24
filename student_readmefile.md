@@ -1,24 +1,24 @@
 # Nom du projet
 
 ## Présentation générale
-Ce projet consiste à développer **[description très courte du produit]**. 
+Ce projet consiste à développer une application permettant aux personnes de favoriser l'organisation dans la vie financiere surtout pour les jeunes adultes a gerer leur argent et la façon dont ils le depensent. **[description très courte du produit]**. 
 Garder la présentation courte et concise.
 
-L’objectif principal est de **[objectif du produit / problème résolu]**.
+L’objectif principal est de manager leurs budget mensuels. **[objectif du produit / problème résolu]**.
 
 ---
 
 ## Équipe
-- Prénom Nom - Num Étudiant
-- Prénom Nom - Num Étudiant
-- Prénom Nom - Num Étudiant
+- Ruth Fraichelene Happi KEGMO - 2333789
+- Moses Kassindi Mbafoumoya - Num Étudiant
+- Souleymane Sow - Num Étudiant
 
 ---
 
 ## Produit cible
 Le produit final est destiné à :
-* Type d’utilisateur : [ex. joueur, client, entreprise]
-* Plateforme cible : [PC, Web, Mobile, VR, etc.]
+* Type d’utilisateur : Au public avec une attention particuliere portée sur les etudiants. 
+* Plateforme cible :Web
 ---
 
 ## Structure du dépôt
