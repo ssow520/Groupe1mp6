@@ -3,7 +3,7 @@
 **Équipe :** 
 Souleymane Sow, Moses Kasindi, Ruth Kegmo
 
-**Date :** <2026-01-21>  
+**Date :** <2026-01-23>  
 
 **Version :** <v0.1 / v1.0>
 
@@ -60,10 +60,10 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 ---
 
 ## 6. Contraintes
-- **C-1 (Technologie) :** <langage / framework imposé>
-- **C-2 (Plateforme) :** <web / mobile / desktop>
+- **C-1 (Technologie) :** <Javascript / React et Bootstrap>
+- **C-2 (Plateforme) :** <web / desktop>
 - **C-3 (Délai) :** <dates de phases>
-- **C-4 (Outils) :** <Git, CI, etc.>
+- **C-4 (Outils) :** <Git, CI, VStudio Code etc.>
 
 ---
 
@@ -86,7 +86,7 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 
 ## 9. Critères d’acceptation globaux (Definition of Done – mini)
 - [ ] Fonctionnalités principales développées et testées
-- [ ] estion minimale des erreurs
+- [ ] Gestion minimale des erreurs et exceptions
 - [ ] Calcul du budget fonctionnel
 - [ ] Documentation à jour (UML + ADR si requis)
 - [ ] Application conforme aux exigences du cahier des charges
