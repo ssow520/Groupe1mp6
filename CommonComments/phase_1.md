@@ -1,5 +1,5 @@
-# Guide général – Phase 1 (Repo + SRS)
-**Objectif :** transformer tous les retours de correction Phase 1 en **une checklist unique** et un **mode d’emploi** pour produire un dépôt propre + un SRS “pilotable” (exploitable pour planifier, tester, et répartir le travail).
+# Guide général – Phase 1 (Repo + cahier des charges (SRS))
+**Objectif :** transformer tous les retours de correction Phase 1 en **une checklist unique** et un **mode d’emploi** pour produire un dépôt propre + un cahier des charges “pilotable” (exploitable pour planifier, tester, et répartir le travail).
 
 ---
 
@@ -8,7 +8,7 @@
 - Sujet **clair** + valeur utilisateur explicite. 
 - Scope **IN/OUT** raisonnable : vous excluez volontairement les features lourdes (paiement, prédiction, social avancé, etc.) pour rester faisable sur une session. 
 
-### B) Un SRS structuré et complet (même si V1)
+### B) Un cahier des charges structuré et complet (même si V1)
 - Sections présentes : contexte/objectif, parties prenantes, scope IN/OUT, FR, NFR, contraintes, hypothèses/dépendances, données & règles métier.
 
 ### C) Des exigences déjà orientées “test”
@@ -19,14 +19,14 @@
 ## 2) Les problèmes les plus fréquents (et comment les corriger)
 ### Problème #1 — Documentation inaccessible (liens cassés / pas de lien)
 **Symptômes**
-- Le correcteur ne trouve pas le SRS en 1 clic (README sans lien, lien 404, fichiers rangés mais non référencés).     
-- Liens SRS/ADR cassés → correction faite “en allant chercher” dans `documentation/`.                               
+- Le correcteur ne trouve pas le cahier des charges en 1 clic (README sans lien, lien 404, fichiers rangés mais non référencés).     
+- Liens cahier des charges/ADR cassés → correction faite “en allant chercher” dans `documentation/`.                               
 
 **Correctif attendu**
 - Dans `README.md`, ajouter une section **Documentation** avec liens directs :
   - `documentation/SRS.md`
   - (optionnel) `documentation/ADR/ADR-001.md`  
-Objectif : ouvrir le SRS **en un clic**.  
+Objectif : ouvrir le cahier des charges **en un clic**.  
 
 ---
 
@@ -35,11 +35,11 @@ Objectif : ouvrir le SRS **en un clic**.
 - Livraison sous forme d’archive `.zip` dans le repo → impossible de suivre l’historique, les contributions, les diffs. 
 
 **Correctif attendu**
-- Mettre les fichiers `.md` **directement** dans le repo et faire des commits propres (ex : “add initial SRS”, “complete FR list”, “add NFR”). {index=8}
+- Mettre les fichiers `.md` **directement** dans le repo et faire des commits propres (ex : “add initial cahier des charges”, “complete FR list”, “add NFR”). {index=8}
 
 ---
 
-### Problème #3 — SRS “template” / placeholders / sections incomplètes
+### Problème #3 — cahier des charges “template” / placeholders / sections incomplètes
 **Symptômes**
 - Placeholders `<...>`, champs vides (OUT incomplet), sections “à vérifier”, incohérences de date/version.   
 - OUT partiellement rempli (OUT-3/OUT-4 vides). 
@@ -112,7 +112,7 @@ Pour chaque entité clé :
 - Tout contenu “template” non finalisé (placeholders, doublons, sections vides) donne l’impression d’un texte généré / pas maîtrisé, et est pénalisant. 
 - Certains cas incluent un **avertissement explicite** contre l’utilisation d’outils de génération pour rédiger la documentation : prenez ça au sérieux. 
 
-👉 En pratique : vous pouvez vous aider d’outils pour reformuler, **mais** le document final doit être :
+En pratique : vous pouvez vous aider d’outils pour reformuler, **mais** le document final doit être :
 - cohérent,
 - complet,
 - sans placeholders,
@@ -130,7 +130,7 @@ Pour chaque entité clé :
 - [ ] Section **Documentation** avec lien direct vers `documentation/SRS.md`.   
 - [ ] (Optionnel) liens ADR si vous les gardez.                                 
 
-### C) SRS – contenu
+### C) cahier des charges – contenu
 - [ ] Zéro placeholder (`<...>`, “à vérifier”, “??”).                                         
 - [ ] Scope IN/OUT complet (OUT : ≥ 5 exclusions concrètes).                                  
 - [ ] FR : 10–25 max, petites, numérotées, testables.                                         
@@ -157,9 +157,9 @@ Pour chaque entité clé :
 ## Conclusion
 Si vous appliquez ce guide, vous obtenez automatiquement un livrable Phase 1 “fort” :
 - dépôt corrigeable rapidement (liens OK, pas de ZIP),
-- SRS sans placeholders,
+- cahier des charges sans placeholders,
 - FR/NFR testables,
 - règles métier et données structurées,
 - scope maîtrisé.
 
-> Prochaine étape logique après la V2 : transformer les FR en **backlog** (User Stories + critères d’acceptation + tâches techniques), mais ça vient après avoir verrouillé un SRS propre.
+> Prochaine étape logique après la V2 : transformer les FR en **backlog** (User Stories + critères d’acceptation + tâches techniques), mais ça vient après avoir verrouillé un cahier des charges propre.
