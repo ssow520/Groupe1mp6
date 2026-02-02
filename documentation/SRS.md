@@ -68,7 +68,7 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 ---
 
 ## 7. Données & règles métier (si applicable)
-- **Entités principales :** <User (id, nom, email, mot de passe); Budget (revenus, dépenses, solde)>
+- **Entités principales :** <User (id, nom, email, mot de passe), Revenu (id, montant, source, date, userId), Dépense (id, montant, catégorie, date, userId), Budget (id, solde, userId)>
 - **Règles métier :** <Un utilisateur doit être authentifié pour accéder à son budget; Le budget est calculé comme : revenus – dépenses;Les montants doivent être positifs>
 
 ---
@@ -85,6 +85,7 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 ---
 
 ## 9. Critères d’acceptation globaux (Definition of Done – mini)
+- [ ] [ ] Un utilisateur peut créer un compte et retrouver ses données après reconnexion
 - [ ] Fonctionnalités principales développées et testées
 - [ ] Gestion minimale des erreurs et exceptions
 - [ ] Calcul du budget fonctionnel
