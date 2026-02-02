@@ -45,7 +45,7 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 - **FR-3 :** LLe système doit permettre à l’utilisateur de saisir ses revenus
 - **FR-4 :** Le système doit permettre à l’utilisateur de saisir ses dépenses
 - **FR-5 :** Le système doit calculer automatiquement le budget à partir des données saisies
-- **FR-6 :** Le système doit proposer un budget adéquat en fonction de la situation financière de l’utilisateur
+- **FR-6 :** Le système doit afficher des recommandations simples si les dépenses dépassent les revenus.
 - **FR-7 :** Le système doit afficher un résumé clair du budget
 
 ---
