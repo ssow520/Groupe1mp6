@@ -110,14 +110,14 @@ Solde positif donne message d’encouragement, Solde négatif donne suggestion d
 
 ---
 
-## 9. Critères d’acceptation globaux (Definition of Done – mini)
+## 9. Critères d’acceptation globaux (Definition of Done)
 Le projet est considéré terminé si :
 
  Toutes les FR sont développées
-- [ ]Code versionné proprement (Git)
-- [ ] Toutes les Fonctionnalités principales développées et testées
-- [ ] Les NFR principales sont respectées
-- [ ] Authentification sécurisée fonctionnelle
-- [ ] Calcul du budget exact et testé
-- [ ] Gestion des erreurs implémentée
-- [ ]README et SRS accessibles depuis le dépôt GitHub
+- Code versionné proprement (Git)
+- Toutes les Fonctionnalités principales développées et testées
+- Les NFR principales sont respectées
+- Authentification sécurisée fonctionnelle
+- Calcul du budget exact et testé
+- Gestion des erreurs implémentée
+- README et SRS accessibles depuis le dépôt GitHub
