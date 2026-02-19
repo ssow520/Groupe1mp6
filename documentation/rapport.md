@@ -140,5 +140,40 @@ La couche de données assure la persistance des informations :
 ---
 
 
+## Diagramme des Cas d’Utilisation 
 
+Il illustre les fonctionnalités principales définies dans le SRS ainsi que les relations entre elles.
 
+---
+
+### Acteurs
+
+#### Utilisateur
+Acteur principal du système.  
+Il peut :
+- Créer un compte  
+- Se connecter / se déconnecter  
+- Ajouter, modifier et supprimer des transactions  
+- Catégoriser les dépenses et définir leur fréquence  
+- Consulter l’historique  
+- Visualiser le résumé budgétaire  
+
+#### Équipe technique
+Acteur secondaire responsable de :
+- La maintenance du système  
+- La supervision technique  
+
+---
+
+Les cas d’utilisation sont regroupés en quatre blocs :
+
+1. **Gestion du compte**  
+2. **Gestion des transactions**  
+3. **Calcul et résumé budgétaire**  
+4. **Administration**
+
+### Relations importantes
+
+- Toute modification de transaction inclut automatiquement le **calcul du solde**.  
+- L’ajout d’une dépense inclut la **catégorisation** et la **définition de fréquence**.  
+- La consultation du résumé budgétaire inclut l’**affichage d’un indicateur visuel et la génération d’une recommandation**.
