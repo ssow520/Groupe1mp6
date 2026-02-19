@@ -1,11 +1,11 @@
-# Cahier des charges (SRS léger) — <Nom du projet>
+# Cahier des charges (SRS léger) — Application de gestion de budget
 
-**Équipe :** 
+**Équipe :**  
 Souleymane Sow, Moses Kasindi, Ruth Kegmo
 
-**Date :** <2026-01-23>  
+**Date :** 2026-01-23  
 
-**Version :** <v0.1 / v1.0>
+**Version :** v1.0
 
 ---
 
@@ -17,6 +17,7 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 ---
 
 ## 2. Portée (Scope)
+
 ### 2.1 Inclus (IN)
 - IN-1 : <Création et gestion de compte utilisateur>
 - IN-2 : <Authentification (connexion / déconnexion)>
@@ -28,10 +29,10 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 - IN-6 : <Ajout, modification et suppression de revenus>
 
 ### 2.2 Exclu (OUT)
-- OUT-1 : <Connexion à des comptes bancaires réels>
-- OUT-2 : <Paiements en ligne>
-- OUT-3 : <Application multi-devises ou internationale>
-- OUT-4 : <Fonctionnalités avancées d’intelligence artificielle>
+- OUT-1 : Connexion à des comptes bancaires réels
+- OUT-2 : Paiements en ligne
+- OUT-3 : Application multi-devises ou internationale
+- OUT-4 : Fonctionnalités avancées d’intelligence artificielle
 
 ---
 
@@ -96,6 +97,7 @@ Solde positif donne message d’encouragement, Solde négatif donne suggestion d
 ---
 
 ## 8. Hypothèses & dépendances
+
 ### 8.1 Hypothèses
 - H-1 : <Les utilisateurs disposent d’un accès internet>
 - H-2 : <Les utilisateurs saisissent des informations exactes>
