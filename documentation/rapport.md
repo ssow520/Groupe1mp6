@@ -88,3 +88,57 @@ Les améliorations suivantes ont été apportées :
 ---
 
 
+## Diagramme de composant.png
+
+
+Il illustre la structuration du système en trois sous-systèmes principaux :
+
+- **Frontend (React)**
+- **Backend (API REST)**
+- **Data Layer (Base de données)**
+
+Ce diagramme met en évidence les composants internes de chaque sous-système ainsi que les interfaces utilisées pour assurer la communication entre eux. On distingue:
+
+### Sous-système Frontend
+
+Le Frontend représente l’interface utilisateur développée en React.
+Il contient les composants suivants :
+- **UI App** : composant principal de l’application
+- **AuthView** : gestion de la connexion et de la création de compte
+- **DashboardView** : affichage du résumé budgétaire
+- **TransactionView** : gestion des revenus et des dépenses
+
+Le Frontend communique avec le Backend via des interfaces API :
+- `IAuthAPI`
+- `IBudgetAPI`
+
+---
+
+### Sous-système Backend
+
+Le Backend expose des services via une API REST.
+Il contient les composants :
+- **AuthService** : gestion de l’authentification (hash des mots de passe, validation)
+- **UserService** : gestion des informations utilisateur
+- **BudgetService** : calcul automatique du solde
+- **RecommendationService** : génération de messages d’aide selon le solde
+
+Le Backend fournit les interfaces :
+- `AuthAPI`
+- `BudgetAPI`
+Ces interfaces sont utilisées par le Frontend pour accéder aux fonctionnalités métier.
+
+---
+
+### 2.3 Sous-système Data Layer
+
+La couche de données assure la persistance des informations :
+- **UserRepository**
+- **TransactionRepository**
+- **Database**
+
+---
+
+
+
+
