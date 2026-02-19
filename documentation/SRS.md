@@ -70,6 +70,34 @@ Critères: Tableau de bord avec les elements visibles
 Le système doit proposer un message d’aide basé sur le solde.
 Critères :
 Solde positif donne message d’encouragement, Solde négatif donne suggestion de réduire certaines dépenses.
+- **FR-9 :** Consultation des revenus
+Le système doit permettre à l'utilisateur de consulter la liste de tous ses revenus enregistrés.
+Critères:
+Affichage de tous les revenus de l'utilisateur connecté, Informations visibles : date, montant, description, Tri par date; plus récent en premier, Si aucun revenu, affichage d'un message approprié
+- **FR-10 :** Consultation des dépenses
+Le système doit permettre à l'utilisateur de consulter la liste de toutes ses dépenses enregistrées.
+Critères :
+Affichage de toutes les dépenses de l'utilisateur connecté, Informations visibles : date, montant, catégorie, fréquence, Tri par date, Si aucune dépense, affichage d'un message approprié
+- **FR-11 :** Filtrage des transactions
+Le système doit permettre à l'utilisateur de filtrer ses transactions par type, catégorie ou période.
+Critères :
+Filtre par type : revenus-dépenses-tous; Filtre par catégorie pour les dépenses; Filtre par période jour-semaine-mois-personnalisé; Affichage du nombre de résultats trouvés; Bouton pour réinitialiser les filtres
+- **FR-12 :** Répartition des dépenses par catégorie
+Le système doit afficher un graphique montrant la répartition des dépenses par catégorie.
+Critères :
+Graphique visuel camembert ou barres; Pourcentage pour chaque catégorie; Total des dépenses affiché; Mise à jour automatique après modification; Si aucune dépense, message approprié
+- **FR-13 :** Définition d'un budget mensuel
+Le système doit permettre à l'utilisateur de définir un budget mensuel maximum.
+Critères :
+Montant du budget mensuel modifiable, Sauvegarde en base de données, Affichage du budget restant, Alerte si budget dépassé, Montant strictement positif
+- **FR-14 :** Notification de dépassement de budget
+Le système doit notifier l'utilisateur lorsque ses dépenses dépassent le budget défini.
+Critères :
+Vérification automatique après chaque dépense; Message d'alerte visible sur le tableau de bord; Indication du montant de dépassement, Possibilité de masquer temporairement l'alerte
+- **FR-15 :** Export des données
+Le système doit permettre à l'utilisateur d'exporter ses données en format CSV.
+Critères :
+Bouton d'export accessible depuis l'historique, Export de toutes les transactions revenus et dépenses, Nom du fichier : budgetmaster_export_[date].csv, Téléchargement automatique du fichier, Données exportées : date, type, montant, catégorie, description
 ---
 
 ## 5. Exigences non fonctionnelles (NFR)

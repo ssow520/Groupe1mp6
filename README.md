@@ -43,6 +43,7 @@ Together, they provide a clear, professional, and maintainable documentation fra
 ## Documentation Tree
 - [SRS.md](documentation/SRS.md)
 - [ADR.md](documentation/ADR.md)
+- [rapport.md](documentation/rapport.md)
 
 ## Students tasks
 - [ ] Complete the `student_readmefile.md` file.
