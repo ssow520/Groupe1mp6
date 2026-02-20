@@ -3,15 +3,18 @@
 **Équipe :**  
 Souleymane Sow, Moses Kasindi, Ruth Kegmo
 
-**Date :** 2026-01-23  
+**Date :** 2026-02-20  
 
-**Version :** v1.0
+**Version :** 
 
 ---
 
 ## 1. Contexte & objectif
+
 - **Contexte :** <La gestion du budget personnel représente un défi majeur pour les étudiants et les jeunes actifs. Entre les revenus limités, les dépenses récurrentes (logement, transport, alimentation) et les dépenses variables, il devient difficile d’avoir une vision claire de sa situation financière. Ce projet académique vise à développer une application web de gestion budgétaire permettant d’appliquer les concepts vus en cours (architecture logicielle, gestion des exigences, développement structuré).>
+
 - **Objectif principal :** <Développer une application web permettant à un utilisateur : de créer un compte sécurisé, d’enregistrer ses revenus et ses dépenses (journalières, hebdomadaires, mensuelles), d’obtenir un calcul automatique de son solde, de recevoir des recommandations simples pour mieux gérer son budget.>
+
 - **Parties prenantes :** <Utilisateur final (Client) : utilise l’application pour gérer son budget. Équipe de développement : conçoit et maintient l’application.Enseignant : évalue la conformité technique et documentaire.>
 
 ---
@@ -29,10 +32,10 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 - IN-6 : <Ajout, modification et suppression de revenus>
 
 ### 2.2 Exclu (OUT)
-- OUT-1 : Connexion à des comptes bancaires réels
-- OUT-2 : Paiements en ligne
-- OUT-3 : Application multi-devises ou internationale
-- OUT-4 : Fonctionnalités avancées d’intelligence artificielle
+- OUT-1 : <Connexion à des comptes bancaires réels>
+- OUT-2 : <Paiements en ligne>
+- OUT-3 : <Application multi-devises ou internationale>
+- OUT-4 : <Fonctionnalités avancées d’intelligence artificielle>
 
 ---
 
@@ -45,59 +48,73 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 ## 4. Exigences fonctionnelles (FR)
 > Forme recommandée : “Le système doit…”
 - **FR-1 :** Création de compte : Le système doit permettre à un utilisateur de créer un compte client.
+
 Critères de validation : Email valide + mot de passe valide donne compte créé, Email déjà utilisé donne un message d’erreur clair, mot de passe vide ou invalide donne un message d’erreur.
+
 - **FR-2 :** Authentification: Le système doit permettre à un utilisateur de se connecter.
-Critères :
-Identifiants valides donne accès au tableau de bord, Identifiants invalides donne message d’erreur., Utilisateur non inscrit donne accès refusé.
+
+Critères : Identifiants valides donne accès au tableau de bord, Identifiants invalides donne message d’erreur., Utilisateur non inscrit donne accès refusé.
+
 - **FR-3 :** Ajout de revenu : Le système doit permettre à l’utilisateur d’ajouter un revenu (salaire, bourse, autre).
-Critères :
-Montant positif donne revenu enregistré, Montant négatif ou nul donne erreur affichée, Données sauvegardées en base.
+
+Critères : Montant positif donne revenu enregistré, Montant négatif ou nul donne erreur affichée, Données sauvegardées en base.
+
 - **FR-4 :** Ajout de dépense : Le système doit permettre à l’utilisateur d’ajouter une dépense avec catégorie et fréquence (journalière, hebdomadaire, mensuelle).
-Critères :
-Montant positif donne dépense enregistrée, Catégorie obligatoire donne sinon message d’erreur, Fréquence correctement enregistrée.
+
+Critères : Montant positif donne dépense enregistrée, Catégorie obligatoire donne sinon message d’erreur, Fréquence correctement enregistrée.
+
 - **FR-5 :** Modification / suppression : Le système doit permettre à l’utilisateur de modifier ou supprimer une transaction.
-Critères :
-Modification valide donne mise à jour en base, Suppression confirmée donne transaction supprimée, Tentative sur donnée inexistante donne erreur.
+
+Critères : Modification valide donne mise à jour en base, Suppression confirmée donne transaction supprimée, Tentative sur donnée inexistante donne erreur.
+
 - **FR-6 :** Calcul automatique : Le système doit calculer automatiquement le solde.
 Règle : Solde = Total Revenus – Total Dépenses
-Critères :
-Mise à jour immédiate après ajout/suppression, Résultat exact selon les données enregistrées.
-- **FR-7 :** Résumé budgétaire
-Le système doit afficher un tableau de bord contenant :
+
+Critères : Mise à jour immédiate après ajout/suppression, Résultat exact selon les données enregistrées.
+
+- **FR-7 :** Résumé budgétaire : Le système doit afficher un tableau de bord contenant :
 Total des revenus, Total des dépenses, Solde restant, Indication visuelle (positif / négatif)
+
 Critères: Tableau de bord avec les elements visibles
+
 - **FR-8 :** Recommandation simple
 Le système doit proposer un message d’aide basé sur le solde.
-Critères :
-Solde positif donne message d’encouragement, Solde négatif donne suggestion de réduire certaines dépenses.
+
+Critères : Solde positif donne message d’encouragement, Solde négatif donne suggestion de réduire certaines dépenses.
+
 - **FR-9 :** Consultation des revenus
 Le système doit permettre à l'utilisateur de consulter la liste de tous ses revenus enregistrés.
-Critères:
-Affichage de tous les revenus de l'utilisateur connecté, Informations visibles : date, montant, description, Tri par date; plus récent en premier, Si aucun revenu, affichage d'un message approprié
+
+Critères : Affichage de tous les revenus de l'utilisateur connecté, Informations visibles : date, montant, description, Tri par date; plus récent en premier, Si aucun revenu, affichage d'un message approprié.
+
 - **FR-10 :** Consultation des dépenses
 Le système doit permettre à l'utilisateur de consulter la liste de toutes ses dépenses enregistrées.
-Critères :
-Affichage de toutes les dépenses de l'utilisateur connecté, Informations visibles : date, montant, catégorie, fréquence, Tri par date, Si aucune dépense, affichage d'un message approprié
+
+Critères :Affichage de toutes les dépenses de l'utilisateur connecté, Informations visibles (date, montant, catégorie, fréquence, Tri par date), Si aucune dépense, affichage d'un message approprié.
+
 - **FR-11 :** Filtrage des transactions
 Le système doit permettre à l'utilisateur de filtrer ses transactions par type, catégorie ou période.
-Critères :
-Filtre par type : revenus-dépenses-tous; Filtre par catégorie pour les dépenses; Filtre par période jour-semaine-mois-personnalisé; Affichage du nombre de résultats trouvés; Bouton pour réinitialiser les filtres
+
+Critères : Filtre par type (revenus-dépenses-tous); Filtre par catégorie pour les dépenses; Filtre par période (jour-semaine-mois-personnalisé); Affichage du nombre de résultats trouvés; Bouton pour réinitialiser les filtres
+
 - **FR-12 :** Répartition des dépenses par catégorie
 Le système doit afficher un graphique montrant la répartition des dépenses par catégorie.
-Critères :
-Graphique visuel camembert ou barres; Pourcentage pour chaque catégorie; Total des dépenses affiché; Mise à jour automatique après modification; Si aucune dépense, message approprié
+
+Critères : Graphique visuel camembert ou barres; Pourcentage pour chaque catégorie; Total des dépenses affiché; Mise à jour automatique après modification; Si aucune dépense, message approprié.
+
 - **FR-13 :** Définition d'un budget mensuel
 Le système doit permettre à l'utilisateur de définir un budget mensuel maximum.
-Critères :
-Montant du budget mensuel modifiable, Sauvegarde en base de données, Affichage du budget restant, Alerte si budget dépassé, Montant strictement positif
+
+Critères : Montant du budget mensuel modifiable, Sauvegarde en base de données, Affichage du budget restant, Alerte si budget dépassé, Montant strictement positif.
+
 - **FR-14 :** Notification de dépassement de budget
 Le système doit notifier l'utilisateur lorsque ses dépenses dépassent le budget défini.
-Critères :
-Vérification automatique après chaque dépense; Message d'alerte visible sur le tableau de bord; Indication du montant de dépassement, Possibilité de masquer temporairement l'alerte
-- **FR-15 :** Export des données
-Le système doit permettre à l'utilisateur d'exporter ses données en format CSV.
-Critères :
-Bouton d'export accessible depuis l'historique, Export de toutes les transactions revenus et dépenses, Nom du fichier : budgetmaster_export_[date].csv, Téléchargement automatique du fichier, Données exportées : date, type, montant, catégorie, description
+
+Critères : Vérification automatique après chaque dépense; Message d'alerte visible sur le tableau de bord; Indication du montant de dépassement, Possibilité de masquer temporairement l'alerte.
+
+- **FR-15 :** Export des données : Le système doit permettre à l'utilisateur d'exporter ses données en format CSV.
+
+Critères : Bouton d'export accessible depuis l'historique, Export de toutes les transactions revenus et dépenses, Nom du fichier : budgetmaster_export_[date].csv, Téléchargement automatique du fichier, Données exportées : date, type, montant, catégorie, description
 ---
 
 ## 5. Exigences non fonctionnelles (NFR)

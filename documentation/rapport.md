@@ -10,13 +10,8 @@
 Suite aux commentaires concernant les liens cassés dans le `README.md`, les corrections suivantes ont été effectuées :
 
 - Mise à jour des liens vers le bon chemin : `documentation/SRS.md`
-- Vérification de la présence du fichier **SRS.md** dans le dossier `/documentation`
-- Suppression des liens menant vers des fichiers inexistants à la racine
 - Validation de l’accessibilité du SRS en un clic depuis la page principale du dépôt
 
-Le SRS est désormais accessible directement sur GitHub.
-
----
 
 ### 2. Amélioration des exigences fonctionnelles (FR)
 
@@ -32,7 +27,6 @@ Des cas d’erreur ont été ajoutés, notamment :
 - Montant négatif ou nul
 - Transaction inexistante
 
----
 
 ### 3. Renforcement des exigences non fonctionnelles (NFR)
 
@@ -54,11 +48,10 @@ Les NFR ont été précisées et rendues mesurables :
 - Disponibilité minimale de 95 % durant la période de test
 - Architecture claire frontend/backend
 
----
 
 ### 4. Clarification du périmètre
 
-Le périmètre a été clarifié pour éviter toute dérive du projet.
+Le périmètre a été clarifié: 
 
 #### Inclus (IN)
 - Création et gestion de compte
@@ -75,21 +68,19 @@ Le périmètre a été clarifié pour éviter toute dérive du projet.
 - Multi-devises
 - Intelligence artificielle avancée
 
----
 
 ### 5. Amélioration de la structure du document
 
 Les améliorations suivantes ont été apportées :
 
 - Clarification des entités principales (User, Transaction, Budget)
-- Ajout de règles métier explicites
+- Ajout de règles métier
 - Ajout d’une “Definition of Done”
 
 ---
 
 
 ## Diagramme de composant.png
-
 
 Il illustre la structuration du système en trois sous-systèmes principaux :
 
@@ -112,7 +103,6 @@ Le Frontend communique avec le Backend via des interfaces API :
 - `IAuthAPI`
 - `IBudgetAPI`
 
----
 
 ### Sous-système Backend
 
@@ -128,7 +118,6 @@ Le Backend fournit les interfaces :
 - `BudgetAPI`
 Ces interfaces sont utilisées par le Frontend pour accéder aux fonctionnalités métier.
 
----
 
 ### 2.3 Sous-système Data Layer
 
@@ -143,8 +132,6 @@ La couche de données assure la persistance des informations :
 ## Diagramme des Cas d’Utilisation 
 
 Il illustre les fonctionnalités principales définies dans le SRS ainsi que les relations entre elles.
-
----
 
 ### Acteurs
 
@@ -163,7 +150,6 @@ Acteur secondaire responsable de :
 - La maintenance du système  
 - La supervision technique  
 
----
 
 Les cas d’utilisation sont regroupés en quatre blocs :
 
