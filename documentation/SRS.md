@@ -27,7 +27,7 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 - IN-3 : <Ajout, modification et suppression de dépenses>
 - IN-4 : <Catégorisation des dépenses (ex : logement, alimentation, transport)>
 - IN-5 : <Calcul automatique du solde (revenus – dépenses)>
-- IN-6 : <Historique des transactions>
+- IN-6 : <Historique des transactions effectuées>
 - IN-7 : <Affichage d’un résumé budgétaire (total revenus, total dépenses, solde)>
 - IN-6 : <Ajout, modification et suppression de revenus>
 
