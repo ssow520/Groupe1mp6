@@ -34,7 +34,7 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 ### 2.2 Exclu (OUT)
 - OUT-1 : <Connexion à des comptes bancaires réels>
 - OUT-2 : <Paiements en ligne>
-- OUT-3 : <Application multi-devises ou internationale>
+- OUT-3 : <Application multi-devises ou  devises internationales>
 - OUT-4 : <Fonctionnalités avancées d’intelligence artificielle>
 
 ---
