@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Rapport   -   Projet : Application Web de Gestion Budgétaire  
 **Équipe :** Souleymane Sow, Moses Kasindi, Ruth Kegmo  
 **Date :** 2026-02-19  
+=======
+# Rapport   -   Projet : Application Web de Gestion Budgétaire  
+**Équipe :** Souleymane Sow, Moses Kasindi, Ruth Kegmo  
+**Date :** 2026-02-19  
+>>>>>>> 782ce0c (Dernier commit)
 
 ---
 ## Corrections Phase 1
@@ -136,30 +142,35 @@ Il illustre les fonctionnalités principales définies dans le SRS ainsi que les
 ### Acteurs
 
 #### Utilisateur
-Acteur principal du système.  
+Acteur principal du système.  
 Il peut :
-- Créer un compte  
-- Se connecter / se déconnecter  
-- Ajouter, modifier et supprimer des transactions  
-- Catégoriser les dépenses et définir leur fréquence  
-- Consulter l’historique  
-- Visualiser le résumé budgétaire  
+- Créer un compte  
+- Se connecter / se déconnecter  
+- Ajouter, modifier et supprimer des transactions  
+- Catégoriser les dépenses et définir leur fréquence  
+- Consulter l’historique  
+- Visualiser le résumé budgétaire  
 
 #### Équipe technique
 Acteur secondaire responsable de :
+<<<<<<< HEAD
 - La maintenance du système  
 - La supervision technique  
+=======
+- La maintenance du système  
+- La supervision technique  
+>>>>>>> 782ce0c (Dernier commit)
 
 Les cas d’utilisation sont regroupés en quatre blocs :
 
-1. **Gestion du compte**  
-2. **Gestion des transactions**  
-3. **Calcul et résumé budgétaire**  
+1. **Gestion du compte**  
+2. **Gestion des transactions**  
+3. **Calcul et résumé budgétaire**  
 4. **Administration**
 
 
 ### Relations importantes
 
-- Toute modification de transaction inclut automatiquement le **calcul du solde**.  
-- L’ajout d’une dépense inclut la **catégorisation** et la **définition de fréquence**.  
+- Toute modification de transaction inclut automatiquement le **calcul du solde**.  
+- L’ajout d’une dépense inclut la **catégorisation** et la **définition de fréquence**.  
 - La consultation du résumé budgétaire inclut l’**affichage d’un indicateur visuel et la génération d’une recommandation**.

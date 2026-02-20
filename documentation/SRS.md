@@ -1,9 +1,13 @@
 # Cahier des charges (SRS léger) — Application de gestion de budget
 
-**Équipe :**  
+**Équipe :**  
 Souleymane Sow, Moses Kasindi, Ruth Kegmo
 
+<<<<<<< HEAD
 **Date :** 2026-02-21  
+=======
+**Date :** 2026-02-21  
+>>>>>>> 782ce0c (Dernier commit)
 
 **Version :** 
 
@@ -34,7 +38,11 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 ### 2.2 Exclu (OUT)
 - OUT-1 : <Connexion à des comptes bancaires réels>
 - OUT-2 : <Paiements en ligne>
+<<<<<<< HEAD
 - OUT-3 : <Application multi-devises ou  devises internationales>
+=======
+- OUT-3 : <Application multi-devises ou  devises internationales>
+>>>>>>> 782ce0c (Dernier commit)
 - OUT-4 : <Fonctionnalités avancées d’intelligence artificielle>
 
 ---
@@ -47,6 +55,7 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 
 ## 4. Exigences fonctionnelles (FR)
 > Forme recommandée : “Le système doit…”
+<<<<<<< HEAD
 - **FR-1 :** Création de compte : Le système doit permettre à un utilisateur de créer un compte client.
 
 Critères de validation : Email valide + mot de passe valide donne compte créé, Email déjà utilisé donne un message d’erreur clair, mot de passe vide ou invalide donne un message d’erreur.
@@ -76,45 +85,131 @@ Critères : Mise à jour immédiate après ajout/suppression, Résultat exact se
 Total des revenus, Total des dépenses, Solde restant, Indication visuelle (positif / négatif)
 
 Critères: Tableau de bord avec les elements visibles
+=======
+- **FR-1 :** Création de compte : 
+Le système doit permettre à un utilisateur de créer un compte client.
+
+Critères: 
+Email valide + mot de passe valide donne compte créé, Email déjà utilisé donne un message d’erreur clair, mot de passe vide ou invalide donne un message d’erreur.
+
+- **FR-2 :** Authentification: 
+Le système doit permettre à un utilisateur de se connecter.
+
+Critères:
+Identifiants valides donne accès au tableau de bord, Identifiants invalides donne message d’erreur., Utilisateur non inscrit donne accès refusé.
+
+- **FR-3 :** Ajout de revenu : 
+Le système doit permettre à l’utilisateur d’ajouter un revenu (salaire, bourse, autre).
+
+Critères: 
+Montant positif donne revenu enregistré, Montant négatif ou nul donne erreur affichée, Données sauvegardées en base.
+
+- **FR-4 :** Ajout de dépense : 
+Le système doit permettre à l’utilisateur d’ajouter une dépense avec catégorie et fréquence (journalière, hebdomadaire, mensuelle).
+
+Critères: 
+Montant positif donne dépense enregistrée, Catégorie obligatoire donne sinon message d’erreur, Fréquence correctement enregistrée.
+
+- **FR-5 :** Modification / suppression : 
+Le système doit permettre à l’utilisateur de modifier ou supprimer une transaction.
+
+Critères: 
+Modification valide donne mise à jour en base, Suppression confirmée donne transaction supprimée, Tentative sur donnée inexistante donne erreur.
+
+- **FR-6 :** Calcul automatique : 
+Le système doit calculer automatiquement le solde.
+Règle : Solde = Total Revenus – Total Dépenses
+
+Critères: 
+Mise à jour immédiate après ajout/suppression, Résultat exact selon les données enregistrées.
+
+- **FR-7 :** Résumé budgétaire : 
+Le système doit afficher un tableau de bord contenant :
+Total des revenus, Total des dépenses, Solde restant, Indication visuelle (positif / négatif)
+
+Critères: 
+Tableau de bord avec les elements visibles
+>>>>>>> 782ce0c (Dernier commit)
 
 - **FR-8 :** Recommandation simple
 Le système doit proposer un message d’aide basé sur le solde.
 
+<<<<<<< HEAD
 Critères : Solde positif donne message d’encouragement, Solde négatif donne suggestion de réduire certaines dépenses.
+=======
+Critères: 
+Solde positif donne message d’encouragement, Solde négatif donne suggestion de réduire certaines dépenses.
+>>>>>>> 782ce0c (Dernier commit)
 
 - **FR-9 :** Consultation des revenus
 Le système doit permettre à l'utilisateur de consulter la liste de tous ses revenus enregistrés.
 
+<<<<<<< HEAD
 Critères : Affichage de tous les revenus de l'utilisateur connecté, Informations visibles : date, montant, description, Tri par date; plus récent en premier, Si aucun revenu, affichage d'un message approprié.
+=======
+Critères: 
+Affichage de tous les revenus de l'utilisateur connecté, Informations visibles : date, montant, description, Tri par date; plus récent en premier, Si aucun revenu, affichage d'un message approprié.
+>>>>>>> 782ce0c (Dernier commit)
 
 - **FR-10 :** Consultation des dépenses
 Le système doit permettre à l'utilisateur de consulter la liste de toutes ses dépenses enregistrées.
 
+<<<<<<< HEAD
 Critères :Affichage de toutes les dépenses de l'utilisateur connecté, Informations visibles (date, montant, catégorie, fréquence, Tri par date), Si aucune dépense, affichage d'un message approprié.
+=======
+Critères:
+Affichage de toutes les dépenses de l'utilisateur connecté, Informations visibles (date, montant, catégorie, fréquence, Tri par date), Si aucune dépense, affichage d'un message approprié.
+>>>>>>> 782ce0c (Dernier commit)
 
 - **FR-11 :** Filtrage des transactions
 Le système doit permettre à l'utilisateur de filtrer ses transactions par type, catégorie ou période.
 
+<<<<<<< HEAD
 Critères : Filtre par type (revenus-dépenses-tous); Filtre par catégorie pour les dépenses; Filtre par période (jour-semaine-mois-personnalisé); Affichage du nombre de résultats trouvés; Bouton pour réinitialiser les filtres
+=======
+Critères: 
+Filtre par type (revenus-dépenses-tous); Filtre par catégorie pour les dépenses; Filtre par période (jour-semaine-mois-personnalisé); Affichage du nombre de résultats trouvés; Bouton pour réinitialiser les filtres
+>>>>>>> 782ce0c (Dernier commit)
 
 - **FR-12 :** Répartition des dépenses par catégorie
 Le système doit afficher un graphique montrant la répartition des dépenses par catégorie.
 
+<<<<<<< HEAD
 Critères : Graphique visuel camembert ou barres; Pourcentage pour chaque catégorie; Total des dépenses affiché; Mise à jour automatique après modification; Si aucune dépense, message approprié.
+=======
+Critères: 
+Graphique visuel camembert ou barres; Pourcentage pour chaque catégorie; Total des dépenses affiché; Mise à jour automatique après modification; Si aucune dépense, message approprié.
+>>>>>>> 782ce0c (Dernier commit)
 
 - **FR-13 :** Définition d'un budget mensuel
 Le système doit permettre à l'utilisateur de définir un budget mensuel maximum.
 
+<<<<<<< HEAD
 Critères : Montant du budget mensuel modifiable, Sauvegarde en base de données, Affichage du budget restant, Alerte si budget dépassé, Montant strictement positif.
+=======
+Critères: 
+Montant du budget mensuel modifiable, Sauvegarde en base de données, Affichage du budget restant, Alerte si budget dépassé, Montant strictement positif.
+>>>>>>> 782ce0c (Dernier commit)
 
 - **FR-14 :** Notification de dépassement de budget
 Le système doit notifier l'utilisateur lorsque ses dépenses dépassent le budget défini.
 
+<<<<<<< HEAD
 Critères : Vérification automatique après chaque dépense; Message d'alerte visible sur le tableau de bord; Indication du montant de dépassement, Possibilité de masquer temporairement l'alerte.
 
 - **FR-15 :** Export des données : Le système doit permettre à l'utilisateur d'exporter ses données en format CSV.
 
 Critères : Bouton d'export accessible depuis l'historique, Export de toutes les transactions revenus et dépenses, Nom du fichier : budgetmaster_export_[date].csv, Téléchargement automatique du fichier, Données exportées : date, type, montant, catégorie, description
+=======
+Critères: 
+Vérification automatique après chaque dépense; Message d'alerte visible sur le tableau de bord; Indication du montant de dépassement, Possibilité de masquer temporairement l'alerte.
+
+- **FR-15 :** Export des données : 
+Le système doit permettre à l'utilisateur d'exporter ses données en format CSV.
+
+Critères: 
+Bouton d'export accessible depuis l'historique, Export de toutes les transactions revenus et dépenses, Nom du fichier : budgetmaster_export_[date].csv, Téléchargement automatique du fichier, Données exportées : date, type, montant, catégorie, description
+>>>>>>> 782ce0c (Dernier commit)
 ---
 
 ## 5. Exigences non fonctionnelles (NFR)
