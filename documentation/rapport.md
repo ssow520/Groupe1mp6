@@ -150,13 +150,13 @@ Acteur secondaire responsable de :
 - La maintenance du système  
 - La supervision technique  
 
-
 Les cas d’utilisation sont regroupés en quatre blocs :
 
 1. **Gestion du compte**  
 2. **Gestion des transactions**  
 3. **Calcul et résumé budgétaire**  
 4. **Administration**
+
 
 ### Relations importantes
 
