@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-# Rapport   -   Projet : Application Web de Gestion Budgétaire  
-**Équipe :** Souleymane Sow, Moses Kasindi, Ruth Kegmo  
-**Date :** 2026-02-19  
-=======
 # Rapport   -   Projet : Application Web de Gestion Budgétaire  
 **Équipe :** Souleymane Sow, Moses Kasindi, Ruth Kegmo  
 **Date :** 2026-02-19  
->>>>>>> 782ce0c (Dernier commit)
 
 ---
 ## Corrections Phase 1
@@ -153,13 +147,8 @@ Il peut :
 
 #### Équipe technique
 Acteur secondaire responsable de :
-<<<<<<< HEAD
-- La maintenance du système  
-- La supervision technique  
-=======
 - La maintenance du système  
 - La supervision technique  
->>>>>>> 782ce0c (Dernier commit)
 
 Les cas d’utilisation sont regroupés en quatre blocs :
 
