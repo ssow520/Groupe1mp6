@@ -82,6 +82,8 @@ Les améliorations suivantes ont été apportées :
 
 ## Diagramme de composant.png
 
+- [Diagramme de composant](documentation/Diagramme de composant.png)
+
 Il illustre la structuration du système en trois sous-systèmes principaux :
 
 - **Frontend (React)**
@@ -131,6 +133,8 @@ La couche de données assure la persistance des informations :
 
 ## Diagramme des Cas d’Utilisation 
 
+- [Diagramme des cas d'utilisation](documentation/Diagramme des cas d'uilisation.png)
+
 Il illustre les fonctionnalités principales définies dans le SRS ainsi que les relations entre elles.
 
 ### Acteurs
@@ -163,3 +167,55 @@ Les cas d’utilisation sont regroupés en quatre blocs :
 - Toute modification de transaction inclut automatiquement le **calcul du solde**.  
 - L’ajout d’une dépense inclut la **catégorisation** et la **définition de fréquence**.  
 - La consultation du résumé budgétaire inclut l’**affichage d’un indicateur visuel et la génération d’une recommandation**.
+
+---
+
+## Diagramme de Classe – Vue d’Ensemble du Budget (Dashboard)
+
+
+Ce diagramme de classe représente la structure logicielle du composant **Vue d’ensemble du budget (Dashboard)** de l’application web de gestion budgétaire.
+
+Il modélise les classes principales du Frontend (React) et du Backend (Node.js + Express) ainsi que leurs relations (héritage, agrégation et composition).
+
+---
+
+## Organisation architecturale
+
+Le diagramme est divisé en deux parties :
+
+- **Frontend (React)**
+
+La classe **DashboardPage** constitue le point d’entrée de la page tableau de bord.  
+Elle est composée de plusieurs objets **Card**, représentant :
+- IncomeCard (Total Revenus)
+- ExpenseCard (Total Dépenses)
+- BalanceCard (Solde)
+
+La classe abstraite **Card** définit les attributs communs (titre, montant, couleur) ainsi que les méthodes de formatage et d’affichage.  
+Les trois cartes spécialisées héritent de cette classe et implémentent leur propre logique d’application des couleurs.
+
+Le **DashboardService** communique avec l’API via **ApiClient** afin de récupérer les données sous forme de **DashboardDTO**.
+
+
+- **Backend (Node.js / Express)**
+
+Le **DashboardController** expose l’endpoint `GET /dashboard`.
+
+Le **DashboardServiceBackend** contient la logique métier permettant de calculer :
+- Le total des revenus  
+- Le total des dépenses  
+- Le solde  
+
+Les données sont récupérées via **TransactionRepository**, qui accède aux entités **Transaction** stockées en base de données.
+
+### Relations UML
+
+Le diagramme met en évidence :
+
+- **Héritage** : IncomeCard, ExpenseCard et BalanceCard héritent de la classe abstraite Card.
+- **Composition** : DashboardPage est composée de plusieurs Card.
+- **Agrégation** : DashboardPage utilise DashboardService, qui utilise ApiClient.
+- **Association** : Les services manipulent l’objet DashboardDTO pour le transfert des données.
+
+
+
