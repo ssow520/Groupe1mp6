@@ -1,11 +1,11 @@
 # Cahier des charges (SRS léger) — Application de gestion de budget
 
-**Équipe :**  
+**Équipe :**  
 Souleymane Sow, Moses Kasindi, Ruth Kegmo
 
-**Date :** 2026-02-21  
+**Date :** 2026-02-21  
 
-**Version :** 
+**Version :** <v0.1/v1.0>
 
 ---
 
@@ -27,14 +27,14 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 - IN-3 : <Ajout, modification et suppression de dépenses>
 - IN-4 : <Catégorisation des dépenses (ex : logement, alimentation, transport)>
 - IN-5 : <Calcul automatique du solde (revenus – dépenses)>
-- IN-6 : <Historique des transactions effectuées>
+- IN-6 : <Historique des transactions>
 - IN-7 : <Affichage d’un résumé budgétaire (total revenus, total dépenses, solde)>
 - IN-6 : <Ajout, modification et suppression de revenus>
 
 ### 2.2 Exclu (OUT)
 - OUT-1 : <Connexion à des comptes bancaires réels>
 - OUT-2 : <Paiements en ligne>
-- OUT-3 : <Application multi-devises ou  devises internationales>
+- OUT-3 : <Application multi-devises ou  devises internationales>
 - OUT-4 : <Fonctionnalités avancées d’intelligence artificielle>
 
 ---
