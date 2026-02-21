@@ -3,7 +3,7 @@
 **Équipe :**  
 Souleymane Sow, Moses Kasindi, Ruth Kegmo
 
-**Date :** 2026-02-21  
+**Date :** 2026-02-22  
 
 **Version :** <v0.1/v1.0>
 
@@ -115,6 +115,7 @@ Critères : Vérification automatique après chaque dépense; Message d'alerte v
 - **FR-15 :** Export des données : Le système doit permettre à l'utilisateur d'exporter ses données en format CSV.
 
 Critères : Bouton d'export accessible depuis l'historique, Export de toutes les transactions revenus et dépenses, Nom du fichier : budgetmaster_export_[date].csv, Téléchargement automatique du fichier, Données exportées : date, type, montant, catégorie, description
+
 ---
 
 ## 5. Exigences non fonctionnelles (NFR)
