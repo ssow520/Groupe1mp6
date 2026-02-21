@@ -12,7 +12,6 @@ Suite aux commentaires concernant les liens cassés dans le `README.md`, les cor
 - Mise à jour des liens vers le bon chemin : `documentation/SRS.md`
 - Validation de l’accessibilité du SRS en un clic depuis la page principale du dépôt
 
-
 ### 2. Amélioration des exigences fonctionnelles (FR)
 
 Les exigences fonctionnelles ont été renforcées afin de les rendre plus précises, complètes et testables :
@@ -26,7 +25,6 @@ Des cas d’erreur ont été ajoutés, notamment :
 - Identifiants invalides
 - Montant négatif ou nul
 - Transaction inexistante
-
 
 ### 3. Renforcement des exigences non fonctionnelles (NFR)
 
@@ -48,7 +46,6 @@ Les NFR ont été précisées et rendues mesurables :
 - Disponibilité minimale de 95 % durant la période de test
 - Architecture claire frontend/backend
 
-
 ### 4. Clarification du périmètre
 
 Le périmètre a été clarifié: 
@@ -68,7 +65,6 @@ Le périmètre a été clarifié:
 - Multi-devises
 - Intelligence artificielle avancée
 
-
 ### 5. Amélioration de la structure du document
 
 Les améliorations suivantes ont été apportées :
@@ -82,7 +78,7 @@ Les améliorations suivantes ont été apportées :
 
 ## Diagramme de composant.png
 
-- [Diagramme de composant](documentation/Diagramme de composant.png)
+- [Diagramme_composant.png](documentation/Diagramme_composant.png)
 
 Il illustre la structuration du système en trois sous-systèmes principaux :
 
@@ -133,7 +129,7 @@ La couche de données assure la persistance des informations :
 
 ## Diagramme des Cas d’Utilisation 
 
-- [Diagramme des cas d'utilisation](documentation/Diagramme des cas d'uilisation.png)
+- [Diagramme_cas_d'utilisation](documentation/Diagramme_cas_d'uilisation.png)
 
 Il illustre les fonctionnalités principales définies dans le SRS ainsi que les relations entre elles.
 
@@ -170,16 +166,12 @@ Les cas d’utilisation sont regroupés en quatre blocs :
 
 ---
 
+
 ## Diagramme de Classe – Vue d’Ensemble du Budget (Dashboard)
 
+- [diagramme_classe](documentation/diagramme_classe.png)
 
-Ce diagramme de classe représente la structure logicielle du composant **Vue d’ensemble du budget (Dashboard)** de l’application web de gestion budgétaire.
-
-Il modélise les classes principales du Frontend (React) et du Backend (Node.js + Express) ainsi que leurs relations (héritage, agrégation et composition).
-
----
-
-## Organisation architecturale
+Ce diagramme de classe représente la structure logicielle du composant **Vue d’ensemble du budget (Dashboard)** de l’application.
 
 Le diagramme est divisé en deux parties :
 
