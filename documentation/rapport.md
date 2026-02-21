@@ -3,6 +3,10 @@
 **Date :** 2026-02-19  
 
 ---
+## Asana, tableau de bord agile
+[Asana](https://app.asana.com/1/1213298021800524/project/1213303786003588/board/1213303344835469)
+
+---
 ## Corrections Phase 1
 
 ### 1. Correction de l'accès au SRS
