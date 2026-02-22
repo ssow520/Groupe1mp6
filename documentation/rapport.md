@@ -1,6 +1,6 @@
 # Rapport   -   Projet : Application Web de Gestion Budgétaire  
 **Équipe :** Souleymane Sow, Moses Kasindi, Ruth Kegmo  
-**Date :** 2026-02-20  
+**Date :** 2026-02-22  
 
 ---
 ## Asana, tableau de bord agile
