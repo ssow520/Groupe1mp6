@@ -11,25 +11,25 @@ Souleymane Sow, Moses Kasindi, Ruth Kegmo
 
 ## 1. Contexte & objectif
 
-- **Contexte :** <La gestion du budget personnel représente un défi majeur pour les étudiants et les jeunes actifs. Entre les revenus limités, les dépenses récurrentes (logement, transport, alimentation) et les dépenses variables, il devient difficile d’avoir une vision claire de sa situation financière. Ce projet académique vise à développer une application web de gestion budgétaire permettant d’appliquer les concepts vus en cours (architecture logicielle, gestion des exigences, développement structuré).>
+- **Contexte :** La gestion du budget personnel représente un défi majeur pour les étudiants et les jeunes actifs. Entre les revenus limités, les dépenses récurrentes (logement, transport, alimentation) et les dépenses variables, il devient difficile d’avoir une vision claire de sa situation financière. Ce projet académique vise à développer une application web de gestion budgétaire permettant d’appliquer les concepts vus en cours (architecture logicielle, gestion des exigences, développement structuré).
 
-- **Objectif principal :** <Développer une application web permettant à un utilisateur : de créer un compte sécurisé, d’enregistrer ses revenus et ses dépenses (journalières, hebdomadaires, mensuelles), d’obtenir un calcul automatique de son solde, de recevoir des recommandations simples pour mieux gérer son budget.>
+- **Objectif principal :** Développer une application web permettant à un utilisateur : de créer un compte sécurisé, d’enregistrer ses revenus et ses dépenses (journalières, hebdomadaires, mensuelles), d’obtenir un calcul automatique de son solde, de recevoir des recommandations simples pour mieux gérer son budget.>
 
-- **Parties prenantes :** <Utilisateur final (Client) : utilise l’application pour gérer son budget. Équipe de développement : conçoit et maintient l’application.Enseignant : évalue la conformité technique et documentaire.>
+- **Parties prenantes :** <Utilisateur final (Client) : utilise l’application pour gérer son budget. Équipe de développement : conçoit et maintient l’application.Enseignant : évalue la conformité technique et documentaire.
 
 ---
 
 ## 2. Portée (Scope)
 
 ### 2.1 Inclus (IN)
-- IN-1 : <Création et gestion de compte utilisateur>
-- IN-2 : <Authentification (connexion / déconnexion)>
-- IN-3 : <Ajout, modification et suppression de dépenses>
-- IN-4 : <Catégorisation des dépenses (ex : logement, alimentation, transport)>
-- IN-5 : <Calcul automatique du solde (revenus – dépenses)>
-- IN-6 : <Historique des transactions>
-- IN-7 : <Affichage d’un résumé budgétaire (total revenus, total dépenses, solde)>
-- IN-6 : <Ajout, modification et suppression de revenus>
+- IN-1 : Création et gestion de compte utilisateur
+- IN-2 : Authentification (connexion / déconnexion)
+- IN-3 : Ajout, modification et suppression de dépenses
+- IN-4 : Catégorisation des dépenses (ex : logement, alimentation, transport)
+- IN-5 : Calcul automatique du solde (revenus – dépenses)
+- IN-6 : Historique des transactions
+- IN-7 : Affichage d’un résumé budgétaire (total revenus, total dépenses, solde)
+- IN-6 : Ajout, modification et suppression de revenus
 
 ### 2.2 Exclu (OUT)
 - OUT-1 : <Connexion à des comptes bancaires réels>
