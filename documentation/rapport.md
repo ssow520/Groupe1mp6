@@ -1,6 +1,10 @@
 # Rapport   -   Projet : Application Web de Gestion Budgétaire  
 **Équipe :** Souleymane Sow, Moses Kasindi, Ruth Kegmo  
-**Date :** 2026-02-19  
+**Date :** 2026-02-22  
+
+---
+## Asana, tableau de bord agile
+[Asana](https://app.asana.com/1/1213298021800524/project/1213303786003588/board/1213303344835469)
 
 ---
 ## Corrections Phase 1
@@ -33,6 +37,7 @@ Les NFR ont été précisées et rendues mesurables :
 #### Sécurité (NFR-2)
 - Hashage obligatoire des mots de passe
 - Session active requise pour accéder au tableau de bord
+- Isolation stricte des données par utilisateur
 
 #### Performance (NFR-1)
 - Temps de réponse des pages principales < 5 secondes
@@ -207,6 +212,3 @@ Le diagramme met en évidence :
 - **Composition** : DashboardPage est composée de plusieurs Card.
 - **Agrégation** : DashboardPage utilise DashboardService, qui utilise ApiClient.
 - **Association** : Les services manipulent l’objet DashboardDTO pour le transfert des données.
-
-
-
