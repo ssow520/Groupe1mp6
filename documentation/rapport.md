@@ -33,7 +33,6 @@ Les NFR ont été précisées et rendues mesurables :
 #### Sécurité (NFR-2)
 - Hashage obligatoire des mots de passe
 - Session active requise pour accéder au tableau de bord
-- Isolation stricte des données par utilisateur
 
 #### Performance (NFR-1)
 - Temps de réponse des pages principales < 5 secondes
